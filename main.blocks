@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Hfz|+N}`i%AFy3O$fx_B">Mood</variable></variables><block type="pxt-on-start" id="|^blc)Ln%_%Hl.q%[KHQ" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="DM7}2zr(3lMDr9vVQdgY"><value name="text"><shadow type="text" id="cbJ?V#J.6h6.3kB/m5bo"><field name="TEXT">How are you feeling today?</field></shadow></value><next><block type="basic_show_icon" id="Q4f==5ShR/jc_|2Muqq!"><field name="i">IconNames.Happy</field><next><block type="basic_show_icon" id="pj%wMGLm,99]akz!Ijee"><field name="i">IconNames.Asleep</field><next><block type="basic_show_icon" id=")h^e!Dtd*y*@/}2j{e}K"><field name="i">IconNames.Sad</field></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="]Dji]TxLfd!m99PFW=AO" x="212" y="107"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="weFDXIL:/%9FrWvQ@/Nu"><field name="VAR" id="Hfz|+N}`i%AFy3O$fx_B">Mood</field><value name="VALUE"><shadow type="math_number" id="M4ZzdR*^5Dw?|W$.$MGW"><field name="NUM">2</field></shadow></value><next><block type="device_show_leds" id="y9gcq{Gt$vJ7G/t}!a*A"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="rEq06TCoRKv}Z$?DIoc3" disabled-reasons="pxt_automatic_disabled" x="1" y="336"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="vaw-$qW7!t^mUVE];`=(" disabled-reasons="pxt_automatic_disabled"><field name="VAR" id="Hfz|+N}`i%AFy3O$fx_B">Mood</field><value name="VALUE"><shadow type="math_number" id="Abxi4hEunYB.WE#.#m+m" disabled-reasons="pxt_automatic_disabled"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="m|z$8BA?BaJAWT_}}KAf" disabled-reasons="pxt_automatic_disabled"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        . # . # . 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_forever" id="*@30a/-zf8jc[MDdE`e|" x="308" y="320"><statement name="HANDLER"><block type="device_show_leds" id="ST{3|F1WxbimR^H!*l|."><field name="LEDS">`
+        # # . # # 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block><block type="device_gesture_event" id="3q9vd_Hgqp(tx@:213s4" disabled-reasons="pxt_automatic_disabled" x="51" y="553"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="8.^|(z:ND_!Q{!t2o`;C" disabled-reasons="pxt_automatic_disabled"><field name="VAR" id="Hfz|+N}`i%AFy3O$fx_B">Mood</field><value name="VALUE"><shadow type="math_number" id="_QHA;MJ*h9ye3`eG1IMW" disabled-reasons="pxt_automatic_disabled"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="vl)]|,bdlDm5/`GaaV~T" disabled-reasons="pxt_automatic_disabled"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        . # . # .
+        `</field></block></next></block></statement></block></xml>
